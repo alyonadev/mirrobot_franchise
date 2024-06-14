@@ -6,10 +6,28 @@ html {
   background-color: #ffffff;
 }
 
+body {
+    background-image: url('../img/first_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;        
+}
+
+header img {
+    margin: 15px;
+}
+
+.img-logo {
+    margin-left: 20%;
+}
+
+.img-social {
+    margin-right: 20%;
 }
 
 nav ul {
@@ -66,36 +84,43 @@ nav a {
 
 .content-wrapper {
     display: flex;
+    height: 80vh;
+}
+
+.spacer {
+    margin-left: 10%;
 }
 
 .text-section {
-    flex: 1;
     padding-right: 20px;
     align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.image-section {
-    flex: 1;
-}
-
-.container {
-    position: relative;
+.button-section {
+    position: flex; /* Установка положения контейнера как относительного */
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .image-above-button {
-    width: 30em;
+    width: 29em;
     height: 27em;
-    position: relative;
-    margin-bottom: -4px;
-    left: 21%; /* Центрируем изображение по горизонтали */
+    display: block;   
+    margin-top: 10%;
+    margin-left: 30%;
 }
 
 .info-button {
-    display: block;
-    padding: 20px 30px;
+    position: absolute; /* Установка положения кнопки как абсолютного */  
+    transform: translate(-5%, -100%); /* Центрирование кнопки */
+    padding: 20px 80px;
     background-color: #E96028;
     color: white;
-    text-align: center;
     text-decoration: none;
     border-radius: 50px; /* Задаем радиус скругления краев */
 }
