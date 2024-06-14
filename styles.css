@@ -5,6 +5,15 @@ html {
   height: 100%;
 }
 
+.first-block {
+    background-image: url('../img/first_block_back.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    margin-bottom: 70px;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -86,8 +95,7 @@ nav a {
     margin-left: 10%;
 }
 
-.text-section,
-.img-section {
+.text-section {
     flex: auto;
     align-content: center;
     display: flex;
@@ -120,18 +128,21 @@ nav a {
     border-radius: 50px; /* Задаем радиус скругления краев */
 }
 
+.second-block {
+    background-image: url('../img/second_block_back.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    margin-left: 0;
+}
+
 .text-block {
     margin-bottom: 20px;
 }
 
 .text-block-header {
     margin-bottom: 10px;
-}
-
-.img-item {
-    margin-top: 10%;
-    width: 90%;
-    height: 90%;
 }
 
 .modal {
