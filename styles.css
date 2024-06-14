@@ -144,6 +144,13 @@ nav a {
     margin-bottom: 10px;
 }
 
+.button-section-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
 .modal {
     display: none;
     position: fixed;
