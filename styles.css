@@ -3,13 +3,6 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #ffffff;
-}
-
-body {
-    background-image: url('../img/first_background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 header {
@@ -19,7 +12,8 @@ header {
 }
 
 header img {
-    margin: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .img-logo {
@@ -82,17 +76,19 @@ nav a {
     line-height: 1.5;
 }
 
+
 .content-wrapper {
     display: flex;
-    height: 80vh;
+    width: 100%;
 }
 
 .spacer {
     margin-left: 10%;
 }
 
-.text-section {
-    padding-right: 20px;
+.text-section,
+.img-section {
+    flex: auto;
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -100,29 +96,42 @@ nav a {
 }
 
 .button-section {
-    position: flex; /* Установка положения контейнера как относительного */
-    display: inline-block;
+    display: flex;
+    margin-right: 5%;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
 }
 
 .image-above-button {
-    width: 29em;
-    height: 27em;
-    display: block;   
-    margin-top: 10%;
-    margin-left: 30%;
+    height: 30em; 
+    margin-top: 10%;    
 }
 
 .info-button {
-    position: absolute; /* Установка положения кнопки как абсолютного */  
-    transform: translate(-5%, -100%); /* Центрирование кнопки */
+    position: block;
+    margin-top: -10%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 20px 80px;
     background-color: #E96028;
     color: white;
     text-decoration: none;
     border-radius: 50px; /* Задаем радиус скругления краев */
+}
+
+.text-block {
+    margin-bottom: 20px;
+}
+
+.text-block-header {
+    margin-bottom: 10px;
+}
+
+.img-item {
+    margin-top: 10%;
+    width: 90%;
+    height: 90%;
 }
 
 .modal {
