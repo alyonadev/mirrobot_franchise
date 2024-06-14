@@ -7,11 +7,11 @@ html {
 
 .first-block {
     background-image: url('../img/first_block_back.png');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size: contain;
     margin-bottom: 70px;
+    background-size: cover;
 }
 
 header {
@@ -130,11 +130,10 @@ nav a {
 
 .second-block {
     background-image: url('../img/second_block_back.png');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: contain;
-    margin-left: 0;
+    background-position: center;
+    background-size: cover;
 }
 
 .text-block {
