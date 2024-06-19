@@ -12,6 +12,11 @@ html {
     background-position-x: right;
     margin-bottom: 70px;
     background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -105,9 +110,8 @@ nav a {
 
 .button-section {
     display: flex;
-    margin-right: 5%;
-    flex-direction: column;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .image-above-button {
@@ -116,11 +120,7 @@ nav a {
 }
 
 .info-button {
-    position: block;
-    margin-top: -10%;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 20px 80px;
     background-color: #E96028;
     color: white;
@@ -142,13 +142,6 @@ nav a {
 
 .text-block-header {
     margin-bottom: 10px;
-}
-
-.button-section-second {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
 }
 
 .modal {
