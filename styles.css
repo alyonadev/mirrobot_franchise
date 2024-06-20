@@ -13,6 +13,7 @@ html {
     background-repeat: no-repeat;
     margin-bottom: 70px;
     background-size: cover;
+    background-position: right;
 
     display: flex;
     flex-direction: column;
@@ -149,16 +150,28 @@ nav a {
     background-image: url('../img/second_block_back.png');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: left;
+    background-size: contain;
+}
+
+.text-section-2 h1 {
+    font-weight: 700;
+    font-size: 30pt;
+    margin-bottom: 70px;
+    padding-right: 120px;
 }
 
 .text-block {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .text-block-header {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.text-block-description {
+    font-weight: 500;
 }
 
 .modal {
