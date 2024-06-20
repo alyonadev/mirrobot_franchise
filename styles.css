@@ -41,6 +41,12 @@ header img {
     margin-right: 15%;
 }
 
+.social-icon {
+    min-width: 20%;
+    max-width: 30%;
+    height: auto;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -97,9 +103,9 @@ nav a {
 
 .h1-img {
     position: absolute;
-    top: -20px; /* Подстройте это значение под ваши потребности */
+    top: -20px;
     right: 0;
-    width: 200px; /* Измените этот размер на желаемый */
+    width: 200px;
     height: auto;
 }
 
@@ -117,23 +123,23 @@ nav a {
 }
 
 .image-above-button {
-    max-width: 72%;  /* Ограничиваем максимальную ширину изображения */
+    max-width: 72%;
     height: auto; 
     margin-left: 20%;
 }
 
 @media (max-width: 768px) {
     .content-wrapper {
-      flex-direction: column;  /* При достижении ширины экрана 768px и менее, устанавливаем направление контейнера flex в столбец */
+      flex-direction: column; 
     }
   
     .spacer {
-      margin-left: 0;  /* Убираем отступ слева при маленьких экранах, чтобы контент занимал всю ширину */
+      margin-left: 0; 
     }
   
     .image-above-button {
-      margin-top: 5%;   /* Уменьшаем верхний отступ для изображения */
-      margin-right: 0;  /* Убираем правый отступ для изображения */
+      margin-top: 5%;  
+      margin-right: 0;  
     }
   }
 
@@ -143,7 +149,7 @@ nav a {
     background-color: #E96028;
     color: white;
     text-decoration: none;
-    border-radius: 50px; /* Задаем радиус скругления краев */
+    border-radius: 50px; 
 }
 
 .second-block {
@@ -152,7 +158,33 @@ nav a {
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
+    background-position-x: -30%;
 }
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+  .first_item, 
+  .therd_item {
+    opacity: 0;
+    transition: opacity 0.5s;
+    max-width: 60%;
+    margin-bottom: 10px;
+    margin-left: -40%;
+}
+
+.second_item {
+    opacity: 0;
+    transition: opacity 0.5s;
+    max-width: 90%; 
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
 
 .text-section-2 h1 {
     font-weight: 700;
