@@ -23,6 +23,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; 
+    margin-bottom: 5%;
 }
 
 header img {
@@ -62,14 +63,14 @@ nav a {
 }
 
 .li_img {
-    margin: 10px 10px 10px 0; /* Добавляем небольшой внешний отступ справа, чтобы было немного места между изображением и текстом */
+    margin: 10px 10px 10px 0;
     line-height: 2.5;
 }
 
 .ul_img p {
     align-content: center;
     justify-content: center;
-    margin: 0; /* Убираем внешние отступы текста */
+    margin: 0; 
 }
 
 .content-wrapper {
@@ -89,10 +90,23 @@ nav a {
     justify-content: center;
 }
 
+.h1-container {
+    position: relative;
+}
+
+.h1-img {
+    position: absolute;
+    top: -20px; /* Подстройте это значение под ваши потребности */
+    right: 0;
+    width: 200px; /* Измените этот размер на желаемый */
+    height: auto;
+}
+
 .text-section h1 {
     font-weight: 700;
     font-size: 30pt;
     margin: 0;
+    padding-right: 120px;
 }
 
 .button-section {
@@ -102,11 +116,25 @@ nav a {
 }
 
 .image-above-button {
-    height: 30em; 
-    margin-top: 10%;   
-    margin-right: 5em; 
-    width: auto;
+    max-width: 72%;  /* Ограничиваем максимальную ширину изображения */
+    height: auto; 
+    margin-left: 20%;
 }
+
+@media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column;  /* При достижении ширины экрана 768px и менее, устанавливаем направление контейнера flex в столбец */
+    }
+  
+    .spacer {
+      margin-left: 0;  /* Убираем отступ слева при маленьких экранах, чтобы контент занимал всю ширину */
+    }
+  
+    .image-above-button {
+      margin-top: 5%;   /* Уменьшаем верхний отступ для изображения */
+      margin-right: 0;  /* Убираем правый отступ для изображения */
+    }
+  }
 
 .info-button {
     text-align: center;
