@@ -260,34 +260,49 @@ nav a {
 
 .forth-block {
     text-align: center;
-    margin-bottom: 2%;
-    margin-top: 5%;
-    display: flex; /* Использовать Flexbox для позиционирования по центру */
-    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+    background-image: url('../img/forth_block_back.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .h1-container-forth {
-    align-content: center;
+    text-align: center;
     position: relative;
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 .h1-img1 {
     position: absolute;
-    top: -20px;
+    top: -50px;
     left: 0;
 }
 
 .h1-img2 {
     position: absolute;
-    bottom:-20px;
+    bottom:-50px;
     right: 0;
 }
 
 .h1-img1, .h1-img2 {
-    width: 80px; /* ваше значение ширины */
-    height: 80px; /* ваше значение высоты */
+    width: 80px;
+    height: 80px;
+}
+
+.forth-img {
+    text-align: center; 
+}
+
+.forth-img img {
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 2%;
 }
 
 
