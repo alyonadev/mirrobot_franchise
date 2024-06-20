@@ -57,41 +57,19 @@ nav a {
 }
 
 .ul_img {
-    list-style-type: none;
+    display: flex;
     padding: 0;
+}
+
+.li_img {
+    margin: 10px 10px 10px 0; /* Добавляем небольшой внешний отступ справа, чтобы было немного места между изображением и текстом */
+    line-height: 2.5;
+}
+
+.ul_img p {
+    align-content: center;
     justify-content: center;
-}
-
-.li_img1 {
-    margin: 0 0 10px 0;
-    padding: 0 0 0 30px;
-    background: url('../img/li_img1.png') no-repeat;
-    background-size: 30px; /* Размер изображения маркера */
-    line-height: 2.5;
-}
-
-.li_img2 {
-    margin: 0 0 10px 0;
-    padding: 0 0 0 30px;
-    background: url('../img/li_img2.png') no-repeat;
-    background-size: 30px; /* Размер изображения маркера */
-    line-height: 2.5;
-}
-
-.li_img3 {
-    margin: 0 0 10px 0;
-    padding: 0 0 0 30px;
-    background: url('../img/li_img3.png') no-repeat;
-    background-size: 30px; /* Размер изображения маркера */
-    line-height: 2.5;
-}
-
-.li_img4 {
-    margin: 0 0 10px 0;
-    padding: 0 0 0 30px;
-    background: url('../img/li_img4.png') no-repeat;
-    background-size: 30px; /* Размер изображения маркера */
-    line-height: 2.5;
+    margin: 0; /* Убираем внешние отступы текста */
 }
 
 .content-wrapper {
