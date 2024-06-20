@@ -258,6 +258,39 @@ nav a {
     transform: scale(1.1);
 }
 
+.forth-block {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    display: flex; /* Использовать Flexbox для позиционирования по центру */
+    align-items: center;
+}
+
+.h1-container-forth {
+    align-content: center;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.h1-img1 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.h1-img2 {
+    position: absolute;
+    bottom:-20px;
+    right: 0;
+}
+
+.h1-img1, .h1-img2 {
+    width: 80px; /* ваше значение ширины */
+    height: 80px; /* ваше значение высоты */
+}
+
+
 @media (max-width: 768px) {
     .content-wrapper {
       flex-direction: column; 
