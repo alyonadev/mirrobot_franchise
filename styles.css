@@ -128,21 +128,6 @@ nav a {
     margin-left: 20%;
 }
 
-@media (max-width: 768px) {
-    .content-wrapper {
-      flex-direction: column; 
-    }
-  
-    .spacer {
-      margin-left: 0; 
-    }
-  
-    .image-above-button {
-      margin-top: 5%;  
-      margin-right: 0;  
-    }
-  }
-
 .info-button {
     text-align: center;
     padding: 20px 80px;
@@ -204,6 +189,92 @@ nav a {
 
 .text-block-description {
     font-weight: 500;
+}
+
+.therd-block h1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.therd-container {
+    max-width: 100%;
+    margin: 0; 
+    background: linear-gradient(to bottom, white, #D7EEFC, white);
+}
+
+.therd-block {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.gallary {
+    display: grid;
+    grid-template-columns: 270px 450px 350px;
+    grid-template-rows: auto 140px 140px;
+    grid-gap: 15px; 
+    justify-content: center; 
+    
+}
+
+.image-gallary {
+    position: relative;
+    width: auto;
+    height: fit-content;
+}
+
+.image-gallary img {
+    transition: transform 0.5s;
+}
+
+.gallary > :nth-child(-n+3) img {
+    object-fit: cover; 
+}
+
+.gallary :nth-child(4) img,
+.gallary :nth-child(5) img {
+    grid-row: 2;
+}
+
+.gallary :nth-child(7) img,
+.gallary :nth-child(8) img {
+    grid-row: 3;
+}
+
+.gallary > :nth-child(6) img {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+    margin-left: -60%;
+}
+
+
+.image-gallary:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column; 
+    }
+  
+    .spacer {
+      margin-left: 0; 
+    }
+  
+    .image-above-button {
+      margin-top: 5%;  
+      margin-right: 0;  
+    }
+
+    .gallary {
+        grid-template-columns: 1fr; 
+    }
 }
 
 .modal {
