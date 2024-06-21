@@ -305,6 +305,54 @@ nav a {
     margin-bottom: 2%;
 }
 
+.fifth-block {
+    background-image: url('../img/fifth_block_back.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    display: flex;
+}
+
+.fifth-block h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 30pt;
+    width: 120%;
+    margin-top: 50px;
+}
+
+.fifth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.fifth-container img {
+    width: 35%;
+    margin-right: -20%;
+}
+
+.fifth-text {
+    background-color: white;
+    border-radius: 20px;
+    width: 120%;
+}
+
+.fifth-text p{
+    text-align: center;
+    padding: 20px;
+    font-size: 18pt;
+}
+
+.fifth-button-section {
+    display: flex;
+    margin-right: 20%;
+    margin-top: 30%;
+}
 
 @media (max-width: 768px) {
     .content-wrapper {
