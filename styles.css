@@ -323,6 +323,13 @@ nav a {
     margin-top: 50px;
 }
 
+.fifth-block h1 span {
+    color: #00B08C;
+    background: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
 .fifth-container {
     display: flex;
     flex-direction: column;

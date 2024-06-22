@@ -10,6 +10,10 @@ document.getElementById('openModal3').addEventListener('click', function() {
     document.getElementById('myModal').style.display = 'block';
 });
 
+document.getElementById('openModal4').addEventListener('click', function() {
+    document.getElementById('myModal').style.display = 'block';
+});
+
 document.getElementById('closeModal').addEventListener('click', function() {
     document.getElementById('myModal').style.display = 'none';
 });
