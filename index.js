@@ -50,3 +50,42 @@ document.addEventListener("DOMContentLoaded", function(event) {
     window.addEventListener('resize', showItems);
     showItems();
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const questions = document.querySelectorAll('.question');
+
+    questions.forEach(function(question) {
+        const plusIcon = question.querySelector('.plus-icon');
+        const answer = question.querySelector('.answer');
+
+        plusIcon.addEventListener('click', function() {
+            if (answer.style.display === 'none' || answer.style.display === '') {
+                answer.style.display = 'block';
+                plusIcon.src = '../img/minus.png';
+            } else {
+                answer.style.display = 'none';
+                plusIcon.src = '../img/plus.png';
+            }
+        });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const questions = document.querySelectorAll('.question');
+
+    questions.forEach(function(question) {
+        const plusIcon = question.querySelector('.plus-icon');
+        const questionText = question.querySelector('.question-text');
+        const answer = question.querySelector('.answer');
+
+        questionText.addEventListener('click', function() {
+            if (answer.style.display === 'none' || answer.style.display === '') {
+                answer.style.display = 'block';
+                plusIcon.src = '../img/minus.png';
+            } else {
+                answer.style.display = 'none';
+                plusIcon.src = '../img/plus.png';
+            }
+        });
+    });
+});
