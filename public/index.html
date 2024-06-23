@@ -248,9 +248,10 @@
             <p>Оставьте заявку и получите консультацию менеджера</p>
         </div>
         <div class="form-container">
-            <form class="input-form">
-                <input type="text" placeholder="Имя" class="input-field">
-                <input type="text" placeholder="Номер телефона" class="input-field">
+            <form class="input-form" action="../php/sendRequestMail.php" method="post">
+                <input id="name" name="name" type="text" placeholder="Имя" class="input-field" required>
+                <input id="phone" name="phone" type="text" placeholder="Номер телефона" class="input-field" required>
+                <input name="mailTo" id="mailTo" value="kovalenkoalena789@gmail.com" style="display: none;">
                 <button type="submit" class="submit-button">Отправить</button>
             </form>
         </div>
