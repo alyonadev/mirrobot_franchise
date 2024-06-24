@@ -61,10 +61,10 @@ document.addEventListener('DOMContentLoaded', function() {
         plusIcon.addEventListener('click', function() {
             if (answer.style.display === 'none' || answer.style.display === '') {
                 answer.style.display = 'block';
-                plusIcon.src = '../img/minus.png';
+                plusIcon.src = 'img/minus.png';
             } else {
                 answer.style.display = 'none';
-                plusIcon.src = '../img/plus.png';
+                plusIcon.src = 'img/plus.png';
             }
         });
     });
@@ -81,10 +81,10 @@ document.addEventListener('DOMContentLoaded', function() {
         questionText.addEventListener('click', function() {
             if (answer.style.display === 'none' || answer.style.display === '') {
                 answer.style.display = 'block';
-                plusIcon.src = '../img/minus.png';
+                plusIcon.src = 'img/minus.png';
             } else {
                 answer.style.display = 'none';
-                plusIcon.src = '../img/plus.png';
+                plusIcon.src = 'img/plus.png';
             }
         });
     });

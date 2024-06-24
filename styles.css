@@ -8,7 +8,7 @@ html {
 }
 
 .first-block {
-    background-image: url('../img/first_block_back.png');
+    background-image: url('img/first_block_back.png');
     background-attachment: scroll;
     background-repeat: no-repeat;
     margin-bottom: 70px;
@@ -138,7 +138,7 @@ nav a {
 }
 
 .second-block {
-    background-image: url('../img/second_block_back.png');
+    background-image: url('img/second_block_back.png');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: left;
@@ -263,7 +263,7 @@ nav a {
     margin-top: 10%;
     margin-bottom: 5%;
 
-    background-image: url('../img/forth_block_back.png');
+    background-image: url('img/forth_block_back.png');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
@@ -307,7 +307,7 @@ nav a {
 }
 
 .fifth-block {
-    background-image: url('../img/fifth_block_back.png');
+    background-image: url('img/fifth_block_back.png');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
@@ -409,7 +409,7 @@ nav a {
 }
 
 .seven-block {
-    background-image: url('../img/forth_block_back.png');
+    background-image: url('img/forth_block_back.png');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
@@ -519,7 +519,7 @@ nav a {
 }
 
 .nine-block {
-    background-image: url('../img/nine_block_back.png');
+    background-image: url('img/nine_block_back.png');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
