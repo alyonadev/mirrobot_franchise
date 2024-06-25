@@ -45,6 +45,11 @@ header img {
     min-width: 20%;
     max-width: 30%;
     height: auto;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
 }
 
 nav ul {
@@ -62,6 +67,22 @@ nav a {
     color: #333;
     margin-left: 15px;
     margin-right: 15px;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000; /* set the color you prefer for the underline */
+    transition: width 0.5s; /* adding a transition for smooth effect */
+}
+
+nav a:hover::after {
+    width: 100%; /* when hover, the width expands to create the underline effect */
 }
 
 .ul_img {
@@ -135,6 +156,18 @@ nav a {
     color: white;
     text-decoration: none;
     border-radius: 50px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.info-button:hover {
+    box-shadow: 0 0 20px #E96028;
+}
+
+.info-button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+    background-color: #D44E21;
 }
 
 .second-block {
@@ -250,12 +283,12 @@ nav a {
 .gallary> :nth-child(6) img {
     grid-column: 3;
     grid-row: 2 / span 2;
-    margin-left: -60%;
+    margin-left: -57%;
 }
 
 
 .image-gallary:hover img {
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 .forth-block {
@@ -362,6 +395,8 @@ nav a {
     display: flex;
     padding-right: 70px;
     margin-top: 30%;
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: inline-block;
 }
 
 .six-block {
@@ -501,6 +536,11 @@ nav a {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 14pt;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.input-field:hover {
+    box-shadow: 0 0 20px #81afeb;
 }
 
 .submit-button {
@@ -516,6 +556,19 @@ nav a {
     margin: 4px 2px;
     font-size: 14pt;
     cursor: pointer;
+
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.submit-button:hover {
+    box-shadow: 0 0 20px #81afeb;
+}
+
+.submit-button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+    background-color: #174889; /* Adjust color when button is pressed */
 }
 
 .nine-block {
