@@ -1,33 +1,3 @@
-document.getElementById('openModal1').addEventListener('click', function() {
-    document.getElementById('myModal').style.display = 'block';
-});
-
-document.getElementById('openModal2').addEventListener('click', function() {
-    document.getElementById('myModal').style.display = 'block';
-});
-
-document.getElementById('openModal3').addEventListener('click', function() {
-    document.getElementById('myModal').style.display = 'block';
-});
-
-document.getElementById('openModal4').addEventListener('click', function() {
-    document.getElementById('myModal').style.display = 'block';
-});
-
-document.getElementById('openModal5').addEventListener('click', function() {
-    document.getElementById('myModal').style.display = 'block';
-});
-
-document.getElementById('closeModal').addEventListener('click', function() {
-    document.getElementById('myModal').style.display = 'none';
-});
-
-window.onclick = function(event) {
-    if (event.target == document.getElementById('myModal')) {
-        document.getElementById('myModal').style.display = 'none';
-    }
-};
-
 document.addEventListener("DOMContentLoaded", function(event) {
     var items = document.querySelectorAll('.items img');
     var isInViewport = function(element) {
