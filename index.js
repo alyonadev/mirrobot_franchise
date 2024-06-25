@@ -59,3 +59,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var scrollButton = document.querySelector('.scroll-to-top');
+    if (scrollPosition > 300) { 
+      scrollButton.classList.add('show');
+    } else {
+      scrollButton.classList.remove('show');
+    }
+  });
+  
+  document.querySelector('.scroll-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
