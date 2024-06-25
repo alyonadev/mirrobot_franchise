@@ -525,23 +525,28 @@ nav a {
     background-position: center;
     background-size: cover;
     height: 50%;
+    color: white;
+    display: flex;
 }
 
-@media (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column;
-    }
+.nine-block .spacer{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 18pt;
+}
 
-    .spacer {
-        margin-left: 0;
-    }
+.nine-block .right{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 16pt;
+    margin-left: 100px;
+}
 
-    .image-above-button {
-        margin-top: 5%;
-        margin-right: 0;
-    }
-
-    .gallary {
-        grid-template-columns: 1fr;
-    }
+.nine-block p{
+    font-weight: 500;
+    font-size: 14pt;
 }

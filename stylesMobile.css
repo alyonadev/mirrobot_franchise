@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .spacer {
+        margin-left: 0;
+    }
+
+    .image-above-button {
+        margin-top: 5%;
+        margin-right: 0;
+    }
+
+    .gallary {
+        grid-template-columns: 1fr;
+    }
+}
