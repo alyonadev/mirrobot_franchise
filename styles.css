@@ -417,7 +417,7 @@ nav a:hover::after {
     transition: transform 0.5s;
 }
 
-.six-block img:hover {
+.six-block .six-left img:hover {
     transform: scale(1.1);
 }
 
