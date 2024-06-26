@@ -121,6 +121,25 @@
         width: 60px;
         height: 60px;
     }
+    .text-section-2{
+        width: 90%;
+    }
+
+    .text-section-2 h1{
+        font-size: 34pt;
+    }
+
+    .text-block-header{
+        font-size: 28pt;
+    }
+
+    .text-block-description{
+        font-size: 26pt;
+    }
+
+    .items {
+        display: none;
+    }
 
     .gallary {
         grid-template-columns: 150px 250px 200px;
