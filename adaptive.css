@@ -1,0 +1,492 @@
+@media screen and (max-width: 187px){
+
+}
+
+@media screen and (max-width: 1262px) {
+    .header {
+        margin-bottom: 100px;
+    }
+
+    .burger {
+        display: block;
+        z-index: 100;
+        margin-right: 9%;
+    }
+
+    .header-navigation {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.95);
+        z-index: 1000;
+    }
+
+    .header-navigation ul  {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header-navigation ul > li {
+        width: 100%;
+    }
+
+    .header-navigation a {
+        font-size: 14pt;
+        color: rgb(0, 0, 0);
+    }
+
+
+    .header-navigation_close {
+        display: block;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        height: 100%;
+    }
+
+    .header-links {
+        display: none;
+
+    }
+
+    .img-social {
+        display: none;
+    }
+
+    .h1-img1 {
+        top: 40px;
+    }
+
+    .gallary {
+        display: none;
+    }
+
+    .gallary-adaptive {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .six-left {
+        margin-right: 60px;
+    }
+
+    .six-right {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .content-wrapper {
+        flex-wrap: wrap;
+    }
+
+
+
+    .nine-block {
+        min-height: 130px
+    }
+
+    .nine-block h1 {
+        font-size: 35px;
+    }
+
+    .items {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+   .gallary {
+       display: none;
+   }
+
+    .nine-block h1 {
+        font-size: 25px;
+    }
+
+    .first-block {
+        padding: 0 10px;
+    }
+
+    .h1-img1 {
+        left: 90px;
+        top: -10px;
+    }
+    .h1-img2 {
+        right: 130px;
+    }
+
+
+    .forth-img {
+        display: none;
+    }
+
+    .forth-a-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 34px;
+    }
+
+    .second-block {
+        padding: 0 10px;
+    }
+    .therd-block-block {
+        padding: 0 10px;
+    }
+    .forth-block {
+        padding: 0 10px;
+    }
+    .fifth-block {
+        padding: 34px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifth-block h1 {
+        font-size: 25px;
+        font-weight: 700;
+        width: 276px;
+    }
+
+    .fifth-text {
+        width: fit-content;
+    }
+
+    .six-block {
+        padding: 0 10px;
+    }
+    .seven-block {
+        padding: 0 10px;
+    }
+    .eght-block {
+        padding: 0 10px;
+    }
+    .nine-block {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .text-section h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .text-section h2 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 14px;
+    }
+
+    .scroll-to-top.show {
+        display: none;
+    }
+
+    .six-block {
+        flex-direction: column;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .six-block .six_line {
+        display: none;
+    }
+
+    .line-a {
+        display: flex;
+        width: 11px;
+    }
+
+    .six-block  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .six-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .six-right {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .six-right p {
+        width: 277px;
+        margin-left: 27px;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .question-block {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .question-text {
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+    }
+
+    .plus-icon {
+        height: 24px;
+        width: 24px;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .eght-block h1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .eght-block p{
+        margin-top: 23px;
+        margin-bottom: 29px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .nine-block {
+        display: flex;
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+
+    .nine-block .spacer {
+        width: 254px;
+        margin-bottom: 41px;
+        margin-left: 0px;
+    }
+
+    .nine-block .right {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .first-block .header .logo{
+        margin-left: 0;
+    }
+
+
+
+    .burger {
+        margin-right: 0;
+    }
+
+    .fifth-block {
+        height: 872px;
+        background-image: url("img/bg.png");
+        background-color: rgb(24, 83, 160);
+    }
+
+    .girl {
+        display: flex;
+    }
+
+    .girl img  {
+        width: 290px;
+    }
+
+    .fifth-button-section {
+        margin-top: 0;
+    }
+
+    .info-button {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 15px 50px;
+    }
+
+    .fifth-text p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .text-section {
+        width: 321px;
+    }
+
+    .text-section h1 {
+        padding-right: 0;
+    }
+
+    .h1-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h1-img {
+        width: 200px;
+        top: 10px;
+    }
+
+
+
+    .text-section-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-section-2 h1 {
+        font-size: 25px;
+        font-weight: 700;
+        padding-right: 0px;
+    }
+
+    .therd-block h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .h1-container-forth {
+        width: 100%;
+    }
+
+    .forth-block h1 {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 43px;
+        width: 339px;
+    }
+
+    .h1-container-forth img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .h1-img1 {
+        left:45px;
+        top: -20px;
+    }
+    .h1-img2 {
+        right: 35px;
+        bottom: 25px;
+    }
+
+    .six-block {
+        flex-direction: column;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+   .six-block .six_line {
+        display: none;
+    }
+
+    .line-a {
+        display: flex;
+        width: 11px;
+    }
+
+    .six-block  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .six-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .six-right {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .six-right p {
+        width: 277px;
+        margin-left: 27px;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .question-block {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .question-text {
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+    }
+
+    .plus-icon {
+        height: 24px;
+        width: 24px;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .eght-block h1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .eght-block p{
+        margin-top: 23px;
+        margin-bottom: 29px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .nine-block p {
+        font-size: 10pt;
+    }
+}
