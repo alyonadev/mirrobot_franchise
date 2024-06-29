@@ -89,6 +89,12 @@ document.querySelectorAll('#header_navigation *').forEach((item) => {
     }
 })
 
+document.querySelectorAll('#header_navigation').forEach((item) => {
+    item.onclick = () => {
+        $('#header_navigation').css('display', 'block');
+    }
+})
+
 if (window.screen.width <= 1262) {
     document.querySelectorAll('#header_navigation').forEach((item) => {
         item.onclick = () => {
