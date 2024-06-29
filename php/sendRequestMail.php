@@ -12,11 +12,11 @@ if(isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['mailTo'])) {
 
     if(mail($to, $subject, $message, $headers)) {
         echo "Письмо успешно отправлено.";   
-        header("Location: " . "../index.html");     
+        header("Location: " . "index.html");     
         exit();
     } else {
         echo "Ошибка при отправке письма.";
-        header("Location: " . "../index.html");
+        header("Location: " . "index.html");
         exit();
     }
 }
