@@ -93,8 +93,6 @@
         flex-wrap: wrap;
     }
 
-
-
     .nine-block {
         min-height: 130px
     }
@@ -187,6 +185,26 @@
     }
 
     .text-section h2 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 14px;
+    }    
+
+    .img-and-text img {
+        display: flex;
+        width: 60px; 
+    }
+    
+    .img-and-text {
+        display: flex;
+        align-items: center;
+    }
+
+    .text-content {
+        margin-left: 10px; /* Space between the image and text */
+    }
+    
+    .text-block-header {
         font-size: 16px;
         font-weight: 600;
         margin-top: 14px;
@@ -300,8 +318,6 @@
     .first-block .header .logo{
         margin-left: 0;
     }
-
-
 
     .burger {
         margin-right: 0;
@@ -483,6 +499,60 @@
         margin-bottom: 29px;
         font-size: 18px;
         font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-section{
+        padding-right: 30px;
+    }
+
+    .h1-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .h1-img {
+        width: 200px;
+        top: 10px;
+        position: relative;
+    }
+
+    .h1-img1 {
+        left: 30px;
+        top: -20px;
+    }
+    .h1-img2 {
+        right: 20px;
+        bottom: 25px;
+    }
+
+    .fifth-block div{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .six-block h1{
+        flex-direction: column;
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -100px;
+        margin-bottom: 10px;
+    }
+
+    .six-left {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-right: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .nine-block p {
+        font-size: 10pt;
     }
 }
 

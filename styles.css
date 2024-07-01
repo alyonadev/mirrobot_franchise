@@ -252,6 +252,10 @@ header img {
     margin-bottom: 50px;
 }
 
+.img-and-text img{
+    display: none;
+}
+
 .text-block-header {
     margin-bottom: 20px;
     font-size: larger;
