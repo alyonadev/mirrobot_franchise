@@ -139,6 +139,15 @@
         margin-bottom: 34px;
     }
 
+    .forth-a-img img{
+        border-radius: 20px;
+        width: 80%;
+    }
+
+    .h1-container-forth{
+        margin-bottom: 0px;
+    }
+
     .second-block {
         padding: 0 10px;
     }
@@ -509,7 +518,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
     .text-section{
         padding-right: 30px;
     }
@@ -563,8 +572,17 @@
     }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 380px) {
     .nine-block p {
         font-size: 10pt;
+    }
+
+    .h1-img1 {
+        left: 0;
+        top: -20px;
+    }
+    .h1-img2 {
+        right: 0;
+        bottom: 25px;
     }
 }
