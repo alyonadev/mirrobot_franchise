@@ -85,6 +85,34 @@
     .six-right {
         margin-left: 60px;
     }
+
+    .scroll-to-top {
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        display: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .scroll-to-top img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s;
+    }
+    
+    .scroll-to-top img:hover {
+        transform: scale(1.2);
+    }
+    
+    .scroll-to-top.show {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -185,6 +213,7 @@
     .nine-block {
         padding: 0 10px;
     }
+    
 }
 
 @media screen and (max-width: 700px) {
@@ -320,6 +349,34 @@
 
     .nine-block .right {
         margin-left: 0;
+    }
+
+    .scroll-to-top {
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        display: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .scroll-to-top img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s;
+    }
+    
+    .scroll-to-top img:hover {
+        transform: scale(1.2);
+    }
+    
+    .scroll-to-top.show {
+        display: block;
     }
 }
 
