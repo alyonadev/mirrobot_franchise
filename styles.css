@@ -223,21 +223,45 @@ header img {
     margin-left: 20px;
 }
 
+.image-stack {
+    position: relative;
+    max-width: 100%;
+}
+
 .first_item,
 .therd_item {
-    opacity: 0;
-    transition: opacity 0.5s;
-    max-width: 60%;
-    margin-bottom: 10px;
     margin-left: -40%;
+    margin-bottom: 10px;
+}
+
+.first_item,
+.second_item,
+.therd_item {
+    max-width: 60%;
+    position: relative;
+}
+
+.f_item{
+    margin-left: 1px;
+    margin-top: -2.5px;
+}
+
+.t_item{
+    margin-left: 3px;
+    margin-top: -1px;
+}
+
+.f_item,
+.s_item,
+.t_item {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .second_item {
-    opacity: 0;
-    transition: opacity 0.5s;
     max-width: 90%;
     align-self: flex-end;
-    margin-bottom: 5px;
 }
 
 

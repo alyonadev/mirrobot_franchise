@@ -103,3 +103,20 @@ if (window.screen.width <= 1262) {
     })
 }
 
+
+document.addEventListener('scroll', function() {
+    let scrollPosition = window.scrollY;
+
+    function isInViewport(element) {
+        let rect = element.getBoundingClientRect();
+        return rect.top >= 0;
+    }
+
+    document.querySelectorAll('.f_item, .s_item, .t_item').forEach(function(item) {
+        if (isInViewport(item)) {
+            item.style.opacity = '1'; 
+            item.style.transform = `rotate(${scrollPosition / 5}deg)`;
+        }
+    });
+});
+
