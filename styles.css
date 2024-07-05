@@ -135,7 +135,11 @@ header img {
 .ul_img p {
     align-content: center;
     justify-content: center;
-    margin: 0;
+    margin-left: 5px;
+}
+
+.li-img-1 {
+    margin-right: 0;
 }
 
 .content-wrapper {

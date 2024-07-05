@@ -629,13 +629,13 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .nine-block p {
         font-size: 10pt;
     }
 
     .h1-img1 {
-        left: 0;
+        left: -10px;
         top: -20px;
     }
     .h1-img2 {
